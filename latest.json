@@ -1,6 +1,6 @@
 {
-  "version": "2.6.0",
+  "version": "2.7.1",
   "min_version": "2.4.0",
   "dmg_url": "https://github.com/Mikalakis/metastory-releases/releases/latest/download/metaSTORY-AppleSilicon.dmg",
-  "notes": "What's new in 2.6.0: THE END is now a big red atomic button (no longer covering the next button); scenes & prompts generate in English; hover a style to preview that look; funnier tooltips that stay on screen; bigger, longer loader trivia; moodboard keeps only the quick AI preview."
+  "notes": "What's new in 2.7.1: Stays logged in and keeps your API key across updates. GPT-5 fixed. Delete assets now. Locations no longer default to interiors (cemeteries/streets/parks render outdoors). Branding/title cards render as graphics, not random products. Every scene keeps its location, fuller descriptions, better continuity. Asset assistant stops repeating questions. (One-time: after installing, log in + enter your key once more, then it sticks.)"
 }
