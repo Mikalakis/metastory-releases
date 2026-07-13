@@ -1,6 +1,6 @@
 {
-  "version": "2.7.1",
+  "version": "2.8.0",
   "min_version": "2.4.0",
   "dmg_url": "https://github.com/Mikalakis/metastory-releases/releases/latest/download/metaSTORY-AppleSilicon.dmg",
-  "notes": "What's new in 2.7.1: Stays logged in and keeps your API key across updates. GPT-5 fixed. Delete assets now. Locations no longer default to interiors (cemeteries/streets/parks render outdoors). Branding/title cards render as graphics, not random products. Every scene keeps its location, fuller descriptions, better continuity. Asset assistant stops repeating questions. (One-time: after installing, log in + enter your key once more, then it sticks.)"
+  "notes": "New in v2.8.0:\n- Full OpenAI workflow — the Claude connection is gone; text, vision and images all run on your OpenAI key (enter it once in Settings, it survives updates).\n- Scene continuity — the first frame of each scene is an anchor and the rest of the scene matches its light, location and colours.\n- Assets aware of each other — locations render first, characters and products are lit inside the location, and day/night variants keep the exact same place.\n- No phantom products — a product only appears when a product asset is actually in the shot.\n- Add or remove shots straight from the Board (+ / x on each frame).\n- Global director note on the Board — one instruction applied to every shot.\n- Stronger, prioritised reference handling."
 }
