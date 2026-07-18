@@ -1,7 +1,7 @@
 {
-  "version": "3.1.0",
+  "version": "3.1.1",
   "min_version": "2.4.0",
   "dmg_url": "https://github.com/Mikalakis/metastory-releases/releases/latest/download/metaSTORY-AppleSilicon.dmg",
-  "notes": "metaSTORY 3.1.0\n\n• Bohater to nie tylko człowiek — zwierzę, stworzenie, przedmiot: silnik bierze typ z kontekstu\n• Lokacja = cokolwiek (łódka, plener…); różne lokacje nie są już ujednolicane\n• Nowy krok po imporcie: AI timinguje skrypt i sugeruje długość (15/30/45/60/90s+)\n• Tryb reklama/film — film bez wymuszania packshotu i logo\n• Zmień ilość scen + AI rebuild (dramaturgicznie, w obie strony, z Cofnij)\n• Analiza materiałów z decku PDF (opisy bohaterów/lokacji od razu)\n• Płynniejsza praca przy dużych projektach (80–100 klatek)",
+  "notes": "metaSTORY 3.1.1\n\n• Zapis asetów: przycisk ↓ na każdej karcie asetu pobiera pojedynczy PNG\n• Nowy przycisk „⬇ Assets\" pakuje wszystkie wygenerowane asety (postacie/lokacje/produkty) do jednego ZIP-a",
   "exe_url": "https://github.com/Mikalakis/metastory-releases/releases/latest/download/metaSTORY-Windows-Setup.exe"
 }
