@@ -1,6 +1,6 @@
 {
-  "version": "3.0.0",
+  "version": "3.1.0",
   "min_version": "2.4.0",
   "dmg_url": "https://github.com/Mikalakis/metastory-releases/releases/latest/download/metaSTORY-AppleSilicon.dmg",
-  "notes": "metaSTORY 3.0 — the big one:\n- Lens & aperture per shot: the AI suggests a lens + f-stop, and you can override from a full list — ultra-wide for close-up distortion, 200mm compression, fisheye, anamorphic, tilt-shift, macro, 360.\n- Advanced image character (ported from Kido): crystal-prism refraction, motion blur, imperfection, candid, film grain, halation, vintage flare, handheld. Neutral by default; dial in only what you want.\n- Much better realism: the Kido real-motion-picture-glass engine now drives every photo frame; references are re-photographed from scratch, not copied.\n- New Session button: a real clean slate that survives restarts.\n- Scene counter, richer scene descriptions, a global director note, add/remove shots on the board.\n- Fix: the Confirm bar no longer overlaps the version; version + manual Check for updates now in Settings."
+  "notes": "metaSTORY 3.1.0\n\n• Bohater to nie tylko człowiek — zwierzę, stworzenie, przedmiot: silnik bierze typ z kontekstu\n• Lokacja = cokolwiek (łódka, plener…); różne lokacje nie są już ujednolicane\n• Nowy krok po imporcie: AI timinguje skrypt i sugeruje długość (15/30/45/60/90s+)\n• Tryb reklama/film — film bez wymuszania packshotu i logo\n• Zmień ilość scen + AI rebuild (dramaturgicznie, w obie strony, z Cofnij)\n• Analiza materiałów z decku PDF (opisy bohaterów/lokacji od razu)\n• Płynniejsza praca przy dużych projektach (80–100 klatek)"
 }
