@@ -1,7 +1,7 @@
 {
-  "version": "3.1.1",
+  "version": "3.1.2",
   "min_version": "2.4.0",
   "dmg_url": "https://github.com/Mikalakis/metastory-releases/releases/latest/download/metaSTORY-AppleSilicon.dmg",
-  "notes": "metaSTORY 3.1.1\n\n• Zapis asetów: przycisk ↓ na każdej karcie asetu pobiera pojedynczy PNG\n• Nowy przycisk „⬇ Assets\" pakuje wszystkie wygenerowane asety (postacie/lokacje/produkty) do jednego ZIP-a",
+  "notes": "metaSTORY 3.1.2\n\n• FIX: „Timeout — the request took too long\" przy rozbiciu na sceny. Od 3.1.0 dłuższe filmy (30/45/60/90s+) generują dużo większą listę ujęć, a limit czasu wynosił tylko 90 sekund — model nie zdążał i apka sama przerywała żądanie. Teraz rozbicie, przebudowa scen i poprawa coverage mają 5 minut.\n• Komunikat o timeoucie mówi wprost co zrobić (mniej scen albo szybszy model w ⚙) zamiast samego „spróbuj ponownie\".\n• Odporność: bardzo długie decki i scenariusze są bezpiecznie ograniczane, z ostrzeżeniem, zamiast wywalać błąd żądania.",
   "exe_url": "https://github.com/Mikalakis/metastory-releases/releases/latest/download/metaSTORY-Windows-Setup.exe"
 }
