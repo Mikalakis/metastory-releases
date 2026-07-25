@@ -1,7 +1,7 @@
 {
-  "version": "3.2.1",
+  "version": "3.2.2",
   "min_version": "2.4.0",
   "dmg_url": "https://github.com/Mikalakis/metastory-releases/releases/latest/download/metaSTORY-AppleSilicon.dmg",
-  "notes": "metaSTORY 3.2.1\n\n• KROK 6 „MOTION\" — prompty wideo (Seedance) z asetami + gotowa paczka\n• JAKOŚĆ ASETÓW — znane marki z prawdziwym logo; realne osoby przez wgrane zdjęcie (twarz się trzyma); lokacje bez ludzi i od wnętrza; warianty postaci trzymają tę samą twarz\n• SZYBKOŚĆ — prompty ujęć pisane hurtem (kilkukrotnie szybciej) + ETA na każdym etapie\n• KROK 1 — ujęcia w siatce (cała historia naraz), duży edytor ujęcia, „⚡ Preview board\" (cała historia w jednym szybkim szkicu; klik panelu → edycja)\n• VIEWPORT 3D — edytor kamery po wygenerowaniu klatki\n• EKSPORT — pobieranie pojedynczej klatki + pełna metryka pochodzenia AI (AI-Act)\n• SILNIK — gpt-4o domyślnie (szybszy, pewniejszy breakdown)\n• dziesiątki poprawek jakości i stabilności",
+  "notes": "metaSTORY 3.2.2\n\n• DUŻY EDYTOR PO KLIKNIĘCIU — kafelki asetów, ujęć i wygenerowanych klatek były za małe; teraz klik w kafelek otwiera duży, wygodny edytor:\n  – ujęcie → pełny opis inscenizacji + pola\n  – aset → duże pole opisu (to, co feeduje prompt) + notatki + akcje\n  – klatka → duży edytor promptu (edytuj i przerenderuj)\n• Podgląd zdjęcia (klik w obrazek) i szybka edycja inline zostają bez zmian\n• drobne poprawki UI",
   "exe_url": "https://github.com/Mikalakis/metastory-releases/releases/latest/download/metaSTORY-Windows-Setup.exe"
 }
