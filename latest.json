@@ -1,7 +1,7 @@
 {
-  "version": "3.2.2",
+  "version": "3.3.0",
   "min_version": "2.4.0",
   "dmg_url": "https://github.com/Mikalakis/metastory-releases/releases/latest/download/metaSTORY-AppleSilicon.dmg",
-  "notes": "metaSTORY 3.2.2\n\n• DUŻY EDYTOR PO KLIKNIĘCIU — kafelki asetów, ujęć i wygenerowanych klatek były za małe; teraz klik w kafelek otwiera duży, wygodny edytor:\n  – ujęcie → pełny opis inscenizacji + pola\n  – aset → duże pole opisu (to, co feeduje prompt) + notatki + akcje\n  – klatka → duży edytor promptu (edytuj i przerenderuj)\n• Podgląd zdjęcia (klik w obrazek) i szybka edycja inline zostają bez zmian\n• drobne poprawki UI",
+  "notes": "metaSTORY 3.3.0\n\n• KLIK ROZRÓŻNIA: zdjęcie → duże zdjęcie (podgląd); reszta kafelka → duży edytowalny widok (opis / prompt). Dotyczy asetów, ujęć i wygenerowanych klatek.\n• KROK 4 (Board): typ planu (szerokość ujęcia) zmieniasz teraz prosto na kafelku klatki — wybierak przy każdej klatce.\n• Dodawanie ujęcia na Boardzie nie „dziedziczy\" już szerokości poprzedniego kadru (naprawione unikalne ID ujęć — koniec pomyłek przy dodawaniu).\n• drobne poprawki UI",
   "exe_url": "https://github.com/Mikalakis/metastory-releases/releases/latest/download/metaSTORY-Windows-Setup.exe"
 }
