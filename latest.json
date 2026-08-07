@@ -1,7 +1,7 @@
 {
-  "version": "3.4.0",
+  "version": "3.5.0",
   "min_version": "2.4.0",
   "dmg_url": "https://github.com/Mikalakis/metastory-releases/releases/latest/download/metaSTORY-AppleSilicon.dmg",
-  "notes": "metaSTORY 3.4.0\n\n• VIEWPORT 3D = ANALIZA KADRU: kamera 3D czyta teraz WYGENEROWANĄ klatkę i odtwarza z niej set — postacie, rekwizyty (koń, auto…), tłum w tle i ustawienie kamery. Koniec zgadywania z tekstu — jeden przycisk „✦ Analyze frame\" (po renderze).\n• EXTREME WIDE naprawiony: to znów prawdziwy total plan (bohater maleńki, kamera 50–100 m), a nie kadr „do kolan\".\n• NOWY PLAN „HERO SHOT\": kamera od dołu, zadarta w górę, szeroki obiektyw — bohater monumentalny.\n• LIGHTBOX = GALERIA: po powiększeniu obrazka przeskakujesz strzałkami ← → (klawiatura albo ‹ › po bokach) na kolejne ujęcia/asety, bez zamykania.",
+  "notes": "What's new in 3.5.0:\n- Better shot coverage: the AI now gets a hard shot budget per segment instead of only a seconds target, so you get more, shorter, more varied shots (and it finally respects the shot count you ask for).\n- Product板 is no longer one long static packshot: minimum 2 shots, none longer than 5s.\n- Sharper camera direction: real lens variety (24-135mm, f/1.4-f/8) instead of the same telephoto every frame, explicit camera height/distance/angle, a mandatory physical event in story shots, and three concepts that actually differ by camera position, not adjectives.\n- Duration counter: Script, Board and Render now show total seconds vs your target, in red when it drifts more than 10%.\n- Fixed: the Board timing badge always compared against 15s, even for a 30s spot.",
   "exe_url": "https://github.com/Mikalakis/metastory-releases/releases/latest/download/metaSTORY-Windows-Setup.exe"
 }
