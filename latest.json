@@ -1,7 +1,7 @@
 {
-  "version": "3.6.1",
+  "version": "3.6.2",
   "min_version": "2.4.0",
   "dmg_url": "https://github.com/Mikalakis/metastory-releases/releases/latest/download/metaSTORY-AppleSilicon.dmg",
-  "notes": "What's new in 3.6.1:\n- Fixed: the version number in the bottom-right corner was wrong. It was hardcoded and had drifted two releases behind - it now always reflects the version you are actually running.\n- Update reminders are no longer permanent: \"Skip this version\" became \"Remind me in a week\", so an update you postpone comes back instead of disappearing forever. If you previously skipped a version for good, you will be offered the current one again.\n- The app now also checks for updates when you come back to the window, not only at startup - useful if you keep it open for days.\n- Groundwork for required updates: builds older than a supported minimum can now be told to update before continuing.",
+  "notes": "What's new in 3.6.2:\n- Fixed a real problem with location assets: a location could come back as a copy of an earlier one. A mountain street was generated as an airport, and two different landscapes both came back as the same barn. The app was quietly feeding the first two finished locations into every later one as image references, so the model kept redrawing them. Each location is now generated on its own.\n- Location assets are now a single frame instead of two views in one image. The second view was invented by the model to fill the space, which is where stray extras like parked buses came from.",
   "exe_url": "https://github.com/Mikalakis/metastory-releases/releases/latest/download/metaSTORY-Windows-Setup.exe"
 }
