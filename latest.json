@@ -1,7 +1,7 @@
 {
-  "version": "3.6.2",
+  "version": "3.6.3",
   "min_version": "2.4.0",
   "dmg_url": "https://github.com/Mikalakis/metastory-releases/releases/latest/download/metaSTORY-AppleSilicon.dmg",
-  "notes": "What's new in 3.6.2:\n- Fixed a real problem with location assets: a location could come back as a copy of an earlier one. A mountain street was generated as an airport, and two different landscapes both came back as the same barn. The app was quietly feeding the first two finished locations into every later one as image references, so the model kept redrawing them. Each location is now generated on its own.\n- Location assets are now a single frame instead of two views in one image. The second view was invented by the model to fill the space, which is where stray extras like parked buses came from.",
+  "notes": "What's new in 3.6.3:\n- Usage tracking now covers everything the app generates. Until now only script breakdowns and final frames were recorded, so generating assets, a moodboard or a preview left no trace at all - someone could work in the app for an hour and show up as completely inactive in the stats.\n- Cost estimates now follow the actual frame size and quality instead of a flat number per image, so a 4K moodboard is no longer counted the same as a small preview.",
   "exe_url": "https://github.com/Mikalakis/metastory-releases/releases/latest/download/metaSTORY-Windows-Setup.exe"
 }
